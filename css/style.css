@@ -1,0 +1,138 @@
+body{
+    /* perspective: 700px; */
+    overflow-x: hidden;
+}
+.navbar div a{
+    text-transform: capitalize;
+    color: rgb(245, 10, 10);
+}
+.one,.two,.three,.four,.five{
+    position: relative;
+    
+    
+}
+
+.one .front,.two .front,.three .front,.four .front,.five .front{
+    
+    text-align: center;
+    width: 300px;
+    border-radius: 30px;
+    padding: 0;
+    margin: 10px auto;
+    position: absolute;
+    top:10px;
+    left: 10px;
+    z-index: 2;
+    transition: all 3s ease-in-out;
+    
+}
+
+
+
+.one .front h3,.two .front h3,.three .front h3,.four .front h3,.five .front h3{
+    
+    color: #fff;
+    text-transform:capitalize ;
+    font-style: italic;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+    
+}
+p{
+   font-size: 22px; 
+}
+header{
+    border-radius: 30px 30px 0 0;
+    background-color: rgb(59, 141, 163);
+
+}
+
+.one .front img,.two .front img,.three .front img,.four .front img,.five .front img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    position: relative;
+  
+    
+}
+
+.one .front ul,.two .front ul,.three .front ul,.four .front ul,.five .front ul{
+    list-style:lower-roman ;
+    background-color: rgb(1, 255, 255);
+    border-radius: 0 0 30px 30px;
+
+}
+.one .front ul li,.two .front ul li,.three .front ul li,.four .front ul li,.five .front ul li{
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-size: 22px;
+}
+.three ul p{
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 22px;
+}
+span{
+    color: rgb(234, 15, 128);
+    text-transform: capitalize;
+    font-style:italic ;
+}
+
+.one .front p,.two .front p,.three .front p,.four .front p,.five .front p{
+    text-transform: capitalize;
+}
+
+.one:hover .front,.two:hover .front,.three:hover .front,.four:hover .front,.five:hover .front{
+    transform: translate(300px);
+}
+
+.one .back,.two .back,.three .back,.four .back,.five .back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    max-width: 300px;
+    max-height: 400px;
+    overflow: auto;
+    border-radius: 30px;
+   
+}
+.one .back form ul,.two .back form ul,.three .back form ul,.four .back form ul,.five .back form ul{
+    padding: 10px auto;
+    list-style: none;
+}
+.one form,.two form,.three form,.four form,.five form{
+    border-radius: 30px;
+    background-color: rgb(59, 141, 163);
+}
+
+.one .back form ul li  input,.two .back form ul li  input,.three .back form ul li  input,.four .back form ul li  input,.five .back form ul li  input{
+   margin-bottom:10px;
+   border-radius: 10px;
+   border: 2px solid #ddd;
+   width: 200px; 
+   height: 50px;
+}
+
+.php{
+    position: relative;
+    top: 415px;    
+}
+.flutter{
+    position: relative;
+    top: 830px;    
+}
+.ui{
+    position: relative;
+    top: 1265px;    
+}
+.mobile{
+    position: relative;
+    top: 1650px;    
+}
+
+
+
